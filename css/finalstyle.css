@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    margin: 20px 35px;
+}
+#logo img{
+    margin: 5px 8px;
+    height: 56px;
+    border-radius: 50px;
+}
+#navbar{
+    background-color: #343a40;
+    z-index: -1;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font size: 1.5rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration :none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+div#demo {
+    position:relative;
+}
+div.form-group {
+    position:absolute;
+    z-index:9999999;
+    top:20px; 
+    left:10px; 
+    right:auto; 
+   
+   bottom:auto; 
+}
+.bar{
+    width: 850px;
+    margin-top: 400px;
+    margin-left: 225px;
+}
+.go{
+margin-top: 400px;
+}
+.btn ,.btn-lg, .btn-success{
+background-color: red;
+}
+.category{
+    background-color: grey;
+}
+.row{
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+.row h2{
+    text-align: center;
+}
+
+section>img{
+    padding:15px 10px 5px 30px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100%;
+}
+section{
+    background-color: #e0e0e0;
+    border: 5px solid black;
+    margin: 10px 10px 15px 30px;
+    border-radius: 50px;
+}
+
+section:hover{
+    transform: scale(1.1);
+}
+
+.row{
+    width:100%;
+}
+@media (min-width: 992px){
+    .col-lg-3{
+        float:left;
+        width:25%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-4,.col-md-6{
+        float: left;
+    }
+    .col-md-4{
+        width:33.33%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .col-sm-6{
+        float:left;
+        width:50%;
+    }
+}
+@media (max-width: 575px){
+    .col-xs-12{
+        float:left;
+        width:100%;
+    }
+}
+
+#footer {
+    background-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+#footer-list li {
+    list-style: none;
+    color: white;
+    align-items: center;
+    }
+#foot{
+    font-size: 25px;
+    font-weight: bold;
+}
+#footer ul a{
+    color: white;
+    text-decoration: none;
+}
+#footer ul a:hover{
+    color:black;
+    background-color: white;
+}
+#btn-wrapper{
+    color: white;
+
+}
